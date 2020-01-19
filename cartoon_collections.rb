@@ -15,7 +15,7 @@ def long_planeteer_calls(short_words)# code an argument #here
   # Your code here
   i=0
 if short_words.include?(i>4)
-  puts true 
+  do true 
 else
   puts false 
   i+=1
