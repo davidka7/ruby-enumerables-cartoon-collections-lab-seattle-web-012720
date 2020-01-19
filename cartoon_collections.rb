@@ -18,6 +18,7 @@ if short_words.include?(i>4)
   puts true 
 else
   puts false 
+  i+=1
 end
 end
 
