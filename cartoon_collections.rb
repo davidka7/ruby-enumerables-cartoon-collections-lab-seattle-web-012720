@@ -6,7 +6,8 @@ def roll_call_dwarves(dwarves)# code an argument here
 end
 
 def summon_captain_planet(summon_captain_planet)# code an #argument here
-summon_captain_planet.each
+summon_captain_planet.map!{|summon_captain_planet|summon_captain_planet.capitalize + '!'}
+summon_captain_planet
   # Your code here
 end
 
