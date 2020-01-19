@@ -23,5 +23,9 @@ def find_the_cheese(snakcs)# code an argument here
   # the array below is here to help
   
   cheese_types = ["cheddar", "gouda", "camembert"]
-  # snack.includ
+  i=0
+  while i<cheese_types.size do
+  snack.include?(cheese_types[i])
+  i+=1 
+end
 end
