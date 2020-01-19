@@ -14,7 +14,7 @@ end
 def long_planeteer_calls(short_words)# code an argument #here
   # Your code here
   i=0
-  if 
+  if short_words.include?()
 end
 
 def find_the_cheese# code an argument here
