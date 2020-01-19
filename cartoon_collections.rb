@@ -13,9 +13,9 @@ end
 
 def long_planeteer_calls(short_words)# code an argument #here
   # Your code here
-  i=0
+  
  short_words.any?(|word|word.length>4)
-   i+=1
+   
 
 end
 
