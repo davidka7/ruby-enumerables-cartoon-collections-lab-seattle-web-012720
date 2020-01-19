@@ -26,7 +26,9 @@ def find_the_cheese(snakcs)# code an argument here
   i=0
   while i<cheese_types.size do
   if snack.include?(cheese_types[i])
-    return 
+  else 
+    nil 
+  end
   i+=1 
 end
 end
